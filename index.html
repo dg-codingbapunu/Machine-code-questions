@@ -7,13 +7,13 @@
   </head>
   <body>
     <script>
-      // given string reverse each word of string
-      var str = "saare jahan se acha hindustan hamara";
+      // How to check if an object is an array or not ?
+      function checkArray(elem) {
+        return Array.isArray(elem);
+      }
 
-      var reverseStr = str.split(" ").map(function (word) {
-        return word.split("").reverse().join("");
-      });
-      document.write(reverseStr.join(" "));
+      console.log(checkArray([]));
+      console.log(checkArray({}));
     </script>
   </body>
 </html>
