@@ -7,15 +7,12 @@
   </head>
   <body>
     <script>
-      // check a number is integer or not
-      let a = 37.6;
-      b = 56;
-      // console.log(Number.isInteger(37));
-      if (b % 1 === 0) {
-        console.log("integer");
-      } else {
-        console.log("! integer");
-      }
+      // duplicate([1,2,3,4,5]);
+      // [1,2,3,4,5,1,2,3,4,5]
+      const arr = (arr) => {
+        return arr.concat(arr);
+      };
+      console.log(arr([1, 2, 3, 4, 5]));
     </script>
   </body>
 </html>
