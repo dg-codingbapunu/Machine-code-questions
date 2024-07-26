@@ -7,13 +7,10 @@
   </head>
   <body>
     <script>
-      // How to check if an object is an array or not ?
-      function checkArray(elem) {
-        return Array.isArray(elem);
-      }
-
-      console.log(checkArray([]));
-      console.log(checkArray({}));
+      // How to empty an arryay? do not reset it to new array, and do not loop
+      let arr = [1, 2, 3, 4, 5, 6, 9];
+      arr.length = 0;
+      console.log(arr);
     </script>
   </body>
 </html>
